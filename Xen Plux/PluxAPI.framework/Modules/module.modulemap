@@ -1,0 +1,10 @@
+framework module PluxAPI {
+  umbrella header "PluxAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module PluxAPI.Swift {
+    header "PluxAPI-Swift.h"
+}

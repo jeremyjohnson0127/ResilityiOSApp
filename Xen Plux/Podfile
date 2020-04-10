@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'SwiftStarter' do
+pod 'Metawear-iOSAPI'
+pod 'MBProgressHUD'
+pod 'GaugeKit'
+pod 'Bolts'
+pod 'AWSCore'
+pod 'AWSS3'
+end
+
+target 'SwiftStarterTests' do
+
+end
+
+target 'SwiftStarterUITests' do
+
+end
+

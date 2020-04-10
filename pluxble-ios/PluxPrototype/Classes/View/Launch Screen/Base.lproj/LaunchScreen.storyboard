@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plux API Prototype" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ext-5I-akD">
+                                <rect key="frame" x="159" y="281" width="283" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" red="0.33725490196078434" green="0.38431372549019605" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PluxLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Ho3-9h-8Qn">
+                                <rect key="frame" x="138" y="98" width="325" height="173"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Afd-a2-Qjf"/>
+                                    <constraint firstAttribute="height" constant="128" id="Zqm-I2-gCz"/>
+                                    <constraint firstAttribute="width" secondItem="Ho3-9h-8Qn" secondAttribute="height" multiplier="15:8" id="hPv-85-gcI"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Afd-a2-Qjf"/>
+                                        <exclude reference="Zqm-I2-gCz"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8784313725490196" green="0.8901960784313725" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ext-5I-akD" firstAttribute="top" secondItem="Ho3-9h-8Qn" secondAttribute="bottom" constant="10" id="AaZ-rf-lwE"/>
+                            <constraint firstItem="ext-5I-akD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="SSd-dC-iRF"/>
+                            <constraint firstItem="Ho3-9h-8Qn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iGE-NG-NCS"/>
+                            <constraint firstItem="ext-5I-akD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rSb-t7-7A1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PluxLogo" width="325" height="144"/>
+    </resources>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>781176261791-iqnj02ogac9cq8nrhtu15s8jh54n89jm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.781176261791-iqnj02ogac9cq8nrhtu15s8jh54n89jm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>781176261791-02avncrooilj19trni5gdlkhpe9gki81.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBYtPpL87yAVY7IBWBZe_84BSe8NHDiAdc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>781176261791</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xenhealth.xenapp</string>
+	<key>PROJECT_ID</key>
+	<string>resility-81548</string>
+	<key>STORAGE_BUCKET</key>
+	<string>resility-81548.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:781176261791:ios:3511888e1cef05d7</string>
+	<key>DATABASE_URL</key>
+	<string>https://resility-81548.firebaseio.com</string>
+</dict>
+</plist>
